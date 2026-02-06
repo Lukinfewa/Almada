@@ -1,3 +1,63 @@
+<div align="center">
+  <img src="https://path-to-your-image.jpg" width="300px" alt="Cholo Java Logo">
+  
+  # LIBRO DE TÁCTICA: JAVA STREAMS & OPTIONAL
+  ### "Ganar, ganar y volver a ganar: El Manual del Cholo Simeone para Java 8+"
+  
+  [![Java Version](https://img.shields.io/badge/Java-8%2B-red?style=for-the-badge&logo=java)](https://www.oracle.com/java/)
+  [![License](https://img.shields.io/badge/Licencia-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
+  [![Build](https://img.shields.io/badge/Estado-Finalizado-success?style=for-the-badge)](https://github.com/Lukinfewa/cholo)
+
+  *"En este vestuario, el esfuerzo no se negocia y el código sucio se paga con el banquillo."*
+</div>
+
+# PLAN DE PARTIDO (ÍNDICE)
+
+### 1. Charla Técnica: Salir a Ganar
+*   **1.1.** El Plan de Juego (Objetivo del manual)
+*   **1.2.** El Sistema de Juego: Del "Patadón" al Fútbol Moderno
+
+### 2. Conceptos Tácticos: Del Barro al Césped
+*   **2.1.** El Cómo contra el Qué (Imperativo vs. Funcional)
+    *   *2.1.1.* El Fútbol de "La Vieja Guardia" (Programación Imperativa)
+    *   *2.1.2.* El Fútbol Total (Programación Funcional)
+    *   *2.1.3.* Comparativa: El Patadón vs. La Pizarra Táctica
+*   **2.2.** Clases Anónimas: Los "Temporeros" del Código
+*   **2.3.** Expresiones Lambda: El Grito desde la Banda (Sintaxis y Anatomía)
+*   **2.4.** Interfaces Funcionales: Los Especialistas de la Plantilla
+    *   *2.4.1.* Especialistas a Medida: Tus Propias Interfaces (`@FunctionalInterface`)
+
+### 3. La API de Streams: El Balón en Movimiento
+*   **3.1.** ¿Qué es un Stream? (El Flujo de Juego)
+
+### 4. Operaciones Intermedias: El Trabajo en el Centro del Campo
+*   **4.1.** `.filter()`: El Filtro del Antidoping
+*   **4.2.** `.map()`: El Cambio de Posición
+*   **4.3.** `.sorted()`: La Tabla de Clasificación
+*   **4.4.** `.distinct()`: Sin Cromos Repetidos
+*   **4.5.** `.limit()` y `.skip()`: El 11 Inicial y los Descartes
+
+### 5. Operaciones Terminales: El Remate a Puerta
+*   **5.1.** `.forEach()`: Instrucciones Individuales
+*   **5.2.** `.collect()`: El Autobús del Equipo (Listas y Conjuntos)
+*   **5.3.** `.reduce()`: El Marcador Final (Operaciones Acumulativas)
+*   **5.4.** `.count()`: El Acta del Árbitro
+*   **5.5.** Matchers: El VAR (`anyMatch`, `allMatch`, `noneMatch`)
+*   **5.6.** `.toArray()`: Formación Clásica
+*   **5.7.** `.findFirst()` y `.findAny()`: El MVP de la Jugada
+
+### 6. La Clase Optional: El Seguro de Vida del Míster
+*   **6.1.** El Fantasma de los Valores Nulos (NullPointerException)
+*   **6.2.** ¿Qué es el Optional? El Informe Médico
+*   **6.3.** Creación de Objetos Optional (Los Fichajes)
+*   **6.4.** Métodos Principales: El Plan de Emergencia (Plan B)
+
+### 7. Sesión de Entrenamiento: Del Barro al Gol
+*   **7.1.** Ejercicio Completo 1: La Convocatoria de Champions
+*   **7.2.** Ejercicio Completo 2: El Fichaje de Invierno con Optional
+*   **7.3.** Los 15 Niveles de la Cantera (De Canterano a Capitán)
+
+
 # 1. Charla Técnica: Salir a Ganar
 ## 1.1. El Plan de Juego (Objetivo del manual)
 
@@ -307,7 +367,7 @@ cantera.stream()
 
 ---
 
-# 5. Operaciones Terminales: ¡A Ganar el Partido!
+# 5. Operaciones Terminales: El remate a Puerta
 
 Aquí se acaba la charla técnica. Las **operaciones terminales** disparan la acción. Una vez ejecutadas, el Stream se agota: el balón sale fuera de banda y el partido termina.
 
