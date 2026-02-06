@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://path-to-your-image.jpg" width="300px" alt="Cholo Java Logo">
+  <img src="https://m.media-amazon.com/images/M/MV5BYjBhMjliMDYtZTRiOC00ZGM3LTgxMWMtYzlmYjRhM2VhZTFiXkEyXkFqcGc@._V1_.jpg" width="600px" alt="Cholo Java Logo">
   
   # LIBRO DE TÁCTICA: JAVA STREAMS & OPTIONAL
   ### "Ganar, ganar y volver a ganar: El Manual del Cholo Simeone para Java 8+"
@@ -11,51 +11,52 @@
   *"En este vestuario, el esfuerzo no se negocia y el código sucio se paga con el banquillo."*
 </div>
 
-# PLAN DE PARTIDO (ÍNDICE)
+## 📋 PLAN DE PARTIDO (ÍNDICE INTERACTIVO)
 
-### 1. Charla Técnica: Salir a Ganar
-*   **1.1.** El Plan de Juego (Objetivo del manual)
-*   **1.2.** El Sistema de Juego: Del "Patadón" al Fútbol Moderno
+### 1. [Charla Técnica: Salir a Ganar](#1-charla-técnica-salir-a-ganar)
+*   [1.1. El Plan de Juego (Objetivo)](#11-el-plan-de-juego-objetivo-del-manual)
+*   [1.2. El Sistema: Del Patadón al Fútbol Moderno](#12-el-sistema-de-jugo-del-patadón-al-fútbol-moderno)
 
-### 2. Conceptos Tácticos: Del Barro al Césped
-*   **2.1.** El Cómo contra el Qué (Imperativo vs. Funcional)
-    *   *2.1.1.* El Fútbol de "La Vieja Guardia" (Programación Imperativa)
-    *   *2.1.2.* El Fútbol Total (Programación Funcional)
-    *   *2.1.3.* Comparativa: El Patadón vs. La Pizarra Táctica
-*   **2.2.** Clases Anónimas: Los "Temporeros" del Código
-*   **2.3.** Expresiones Lambda: El Grito desde la Banda (Sintaxis y Anatomía)
-*   **2.4.** Interfaces Funcionales: Los Especialistas de la Plantilla
-    *   *2.4.1.* Especialistas a Medida: Tus Propias Interfaces (`@FunctionalInterface`)
+### 2. [Conceptos Tácticos: Del Barro al Césped](#2-conceptos-tácticos-del-barro-al-césped)
+*   [2.1. El Cómo contra el Qué (Imperativo vs. Funcional)](#21-el-cómo-contra-el-qué-imperativo-vs-funcional)
+    *   [2.1.1. La Vieja Guardia](#211-el-fútbol-de-la-vieja-guardia-programación-imperativa)
+    *   [2.1.2. El Fútbol Total](#212-el-fútbol-total-programación-funcional)
+    *   [2.1.3. Tabla Comparativa](#213-comparativa-el-patadón-vs-la-pizarra-táctica)
+*   [2.2. Clases Anónimas: Los Temporeros](#22-clases-anónimas-los-temporeros-del-código)
+*   [2.3. Expresiones Lambda: Grito desde la Banda](#23-expresiones-lambda-el-grito-desde-la-banda)
+*   [2.4. Interfaces Funcionales: Especialistas](#24-interfaces-funcionales-los-especialistas-de-la-plantilla)
+*   [2.4.1. Especialistas a Medida (Propias)](#241-especialistas-a-medida-tus-propias-interfaces)
 
-### 3. La API de Streams: El Balón en Movimiento
-*   **3.1.** ¿Qué es un Stream? (El Flujo de Juego)
+### 3. [ La API de Streams: El Balón en Movimiento](#3-la-api-de-streams-el-balón-en-movimiento)
+*   [3.1. ¿Qué es un Stream?](#31-qué-es-un-stream-el-flujo-de-juego)
 
-### 4. Operaciones Intermedias: El Trabajo en el Centro del Campo
-*   **4.1.** `.filter()`: El Filtro del Antidoping
-*   **4.2.** `.map()`: El Cambio de Posición
-*   **4.3.** `.sorted()`: La Tabla de Clasificación
-*   **4.4.** `.distinct()`: Sin Cromos Repetidos
-*   **4.5.** `.limit()` y `.skip()`: El 11 Inicial y los Descartes
+### 4. [ Operaciones Intermedias: Centro del Campo](#4-operaciones-intermedias-el-trabajo-en-el-centro-del-campo)
+*   [4.1. filter(): El Antidoping](#41-filter---el-filtro-del-antidoping)
+*   [4.2. map(): Cambio de Posición](#42-map---el-cambio-de-posición)
+*   [4.3. sorted(): La Clasificación](#43-sorted---la-tabla-de-clasificación)
+*   [4.4. distinct(): Sin Repes](#44-distinct---sin-cromos-repetidos)
+*   [4.5. limit() y skip(): El Once y los Descartes](#45-limit-y-skip---el-11-inicial-y-los-descartes)
 
-### 5. Operaciones Terminales: El Remate a Puerta
-*   **5.1.** `.forEach()`: Instrucciones Individuales
-*   **5.2.** `.collect()`: El Autobús del Equipo (Listas y Conjuntos)
-*   **5.3.** `.reduce()`: El Marcador Final (Operaciones Acumulativas)
-*   **5.4.** `.count()`: El Acta del Árbitro
-*   **5.5.** Matchers: El VAR (`anyMatch`, `allMatch`, `noneMatch`)
-*   **5.6.** `.toArray()`: Formación Clásica
-*   **5.7.** `.findFirst()` y `.findAny()`: El MVP de la Jugada
+### 5. [Operaciones Terminales: El Remate](#5-operaciones-terminales-el-remate-a-puerta)
+*   [5.1. forEach(): Instrucciones Individuales](#51-foreach---instrucciones-individuales)
+*   [5.2. collect(): El Autobús del Equipo](#52-collect---el-autobús-del-equipo)
+*   [5.3. reduce(): El Marcador Final](#53-reduce---el-marcador-final)
+*   [5.4. count(): El Acta del Árbitro](#54-count---el-acta-del-árbitro)
+*   [5.5. Matchers: El VAR](#55-matchers-el-var-anymatch-allmatch-nonematch)
+*   [5.6. toArray(): Formación Clásica](#56-toarray---formación-clásica)
+*   [5.7. findFirst() y findAny(): El MVP](#57-findfirst-y-findany---el-mvp)
 
-### 6. La Clase Optional: El Seguro de Vida del Míster
-*   **6.1.** El Fantasma de los Valores Nulos (NullPointerException)
-*   **6.2.** ¿Qué es el Optional? El Informe Médico
-*   **6.3.** Creación de Objetos Optional (Los Fichajes)
-*   **6.4.** Métodos Principales: El Plan de Emergencia (Plan B)
+### 6. [La Clase Optional: El Seguro Médico](#6-la-clase-optional-el-seguro-de-vida-del-míster)
+*   [6.1. El Fantasma de los Nulos](#61-el-fantasma-de-los-valores-nulos)
+*   [6.2. El Informe Médico (¿Qué es?)](#62-qué-es-el-optional-el-informe-médico)
+*   [6.3. Creación de Objetos (Fichajes)](#63-creación-de-objetos-optional-fichajes)
+*   [6.4. Métodos: El Plan B](#64-métodos-principales-el-plan-de-emergencia)
 
-### 7. Sesión de Entrenamiento: Del Barro al Gol
-*   **7.1.** Ejercicio Completo 1: La Convocatoria de Champions
-*   **7.2.** Ejercicio Completo 2: El Fichaje de Invierno con Optional
-*   **7.3.** Los 15 Niveles de la Cantera (De Canterano a Capitán)
+### 7. [Sesión de Entrenamiento: Del Barro al Gol](#-sesión-de-entrenamiento-del-barro-al-gol)
+*   [7.1. Ejercicio 1: Convocatoria Champions](#ejercicio-completo-1-la-convocatoria-de-champions)
+*   [7.2. Ejercicio 2: Fichaje de Invierno con Optional](#ejercicio-completo-2-el-fichaje-de-invierno-con-optional)
+*   [7.3. Los 15 Niveles de la Cantera](#-los-15-niveles-de-la-cantera-de-menos-a-más)
+
 
 
 # 1. Charla Técnica: Salir a Ganar
