@@ -11,63 +11,76 @@
   *"En este vestuario, el esfuerzo no se negocia y el código sucio se paga con el banquillo."*
 </div>
 
-## 📋 PLAN DE PARTIDO (ÍNDICE INTERACTIVO)
-<table align="center">
-<tr>
-<td align="center" width="200">
-<a href="#1-charla-técnica-salir-a-ganar">
-<img src="https://img.shields.io/badge/-VESTUARIO-white?style=for-the-badge&logo=adidas&logoColor=black" /><br>
-<b>⚽ FASE 1</b><br>
-<i>Introducción y Filosofía</i>
-</a>
-</td>
-<td align="center" width="200">
-<a href="#2-conceptos-tácticos-del-barro-al-césped">
-<img src="https://img.shields.io/badge/-LA_PIZARRA-red?style=for-the-badge&logo=target&logoColor=white" /><br>
-<b>📋 FASE 2</b><br>
-<i>Lambdas e Interfaces</i>
-</a>
-</td>
-<td align="center" width="200">
-<a href="#3-la-api-de-streams-el-balón-en-movimiento">
-<img src="https://img.shields.io/badge/-CAMPO_DE_JUEGO-blue?style=for-the-badge&logo=nike&logoColor=white" /><br>
-<b>🏃 FASE 3</b><br>
-<i>Concepto de Stream</i>
-</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="200">
-<a href="#4-operaciones-intermedias-el-trabajo-en-el-centro-del-campo">
-<img src="https://img.shields.io/badge/-TACTICA_MEDIA-blue?style=for-the-badge" /><br>
-<b>👟 FASE 4</b><br>
-<i>Intermedias (Filter, Map...)</i>
-</a>
-</td>
-<td align="center" width="200">
-<a href="#5-operaciones-terminales-el-remate-a-puerta">
-<img src="https://img.shields.io/badge/-EL_REMATE-black?style=for-the-badge" /><br>
-<b>🥅 FASE 5</b><br>
-<i>Terminales (Collect, Reduce...)</i>
-</a>
-</td>
-<td align="center" width="200">
-<a href="#6-la-clase-optional-el-seguro-de-vida-del-míster">
-<img src="https://img.shields.io/badge/-ENFERMERÍA-white?style=for-the-badge&logo=redcross&logoColor=red" /><br>
-<b>🚑 FASE 6</b><br>
-<i>Gestión de Optional</i>
-</a>
-</td>
-</tr>
-<tr>
-<td colspan="3" align="center">
-<a href="#-sesión-de-entrenamiento-del-barro-al-gol">
-<img src="https://img.shields.io/badge/-🏆_GÓNDOLA_DE_TROFEOS_(EJERCICIOS)-gold?style=for-the-badge" /><br>
-<i>Ponte las botas: 15 niveles de entrenamiento real</i>
-</a>
-</td>
-</tr>
+<div align="center">
+
+
+## 🌟 LA PIZARRA DE LAS ESTRELLAS 🌟
+*Haz clic en las tarjetas tácticas para saltar a la lección*
+
+<table>
+  <tr>
+    <th colspan="3" bgcolor="#001C58"><b><font color="white" size="5">🏆 FASE DE GRUPOS: EL ADN</font></b></th>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="#1-charla-técnica-salir-a-ganar">
+        <img src="https://img.shields.io/badge/FASE_1-VESTUARIO-001C58?style=for-the-badge&logo=adidas&logoColor=white" /><br>
+        <sub><b>ADN DEL CLUB</b><br>Mentalidad Funcional</sub>
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="#2-conceptos-tácticos-del-barro-al-césped">
+        <img src="https://img.shields.io/badge/FASE_2-LA_PIZARRA-c1121f?style=for-the-badge&logo=target&logoColor=white" /><br>
+        <sub><b>LAS ÓRDENES</b><br>Lambdas & Interfaces</sub>
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="#3-la-api-de-streams-el-balón-en-movimiento">
+        <img src="https://img.shields.io/badge/FASE_3-SAQUE_INICIAL-003049?style=for-the-badge&logo=google-cloud&logoColor=white" /><br>
+        <sub><b>EL FLUJO</b><br>Concepto de Stream</sub>
+      </a>
+    </td>
+  </tr>
 </table>
+
+<br>
+
+<table>
+  <tr>
+    <th colspan="3" bgcolor="#001C58"><b><font color="white" size="5">🎖️ ELIMINATORIAS: DOMINAR EL CAMPO</font></b></th>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="#4-operaciones-intermedias-el-trabajo-en-el-centro-del-campo">
+        <img src="https://img.shields.io/badge/FASE_4-MEDULAR-1d3557?style=for-the-badge&logo=codeforces&logoColor=white" /><br>
+        <sub><b>TÁCTICA MEDIA</b><br>Filter · Map · Sorted</sub>
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="#5-operaciones-terminales-el-remate-a-puerta">
+        <img src="https://img.shields.io/badge/FASE_5-EL_GOL-000000?style=for-the-badge&logo=target&logoColor=white" /><br>
+        <sub><b>FINALIZACIÓN</b><br>Collect · Reduce</sub>
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="#6-la-clase-optional-el-seguro-de-vida-del-míster">
+        <img src="https://img.shields.io/badge/FASE_6-BANQUILLO-f77f00?style=for-the-badge&logo=shield&logoColor=white" /><br>
+        <sub><b>PLAN DE SEGURO</b><br>Optional & Nulls</sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## 🏅 LA GRAN FINAL: EL ENTRENAMIENTO
+*¿Estás listo para levantar la Orejona?*
+
+<a href="#-sesión-de-entrenamiento-del-barro-al-gol">
+  <img src="https://img.shields.io/badge/🏆_GÓNDOLA_DE_TROFEOS-15_NIVELES_DE_ENTRENAMIENTO_REAL-D4AF37?style=for-the-badge&logo=goldenline&logoColor=black" width="100%" />
+</a>
+</div>
+
 
 
 ### 1. [Charla Técnica: Salir a Ganar](#1-charla-técnica-salir-a-ganar)
