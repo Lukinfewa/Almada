@@ -105,7 +105,7 @@ Esto nos permite escribir código más **expresivo y conciso**. Ya no hace falta
 
 Esto ya no es un manual, es el **Libro de Estrategia del Metropolitano**. Vamos a darle esa "intensidad" que pide el Cholo para que el profesor sienta la pasión (y el conocimiento técnico) en cada línea.
 
----
+<p align="center">⚽ • ⚽ • ⚽ • ⚽ • ⚽ • ⚽</p>
 
 # 2. Conceptos Tácticos: Del Barro al Césped
 ## 2.1. El Cómo contra el Qué (Imperativo vs. Funcional)
@@ -304,6 +304,7 @@ public class Vestuario {
 ### El Análisis del Analista
 ¿Habéis visto? No hay clases `Perro` ni `Mensajero` genéricas. Hemos creado un **`Arenga`**, le hemos asignado la personalidad del Cholo mediante una Lambda y hemos invocado el método. El código es limpio, expresivo y, sobre todo, tiene **intensidad**. Esta es la base de todo lo que haremos luego con los **Streams**: definir comportamientos a medida para ganar cada balón dividido.
 
+<p align="center">⚽ • ⚽ • ⚽ • ⚽ • ⚽ • ⚽</p>
 
 # 3. La API de Streams: El Balón en Movimiento
 ## 3.1. ¿Qué es un Stream? (El Flujo de Juego)
@@ -328,6 +329,7 @@ Un Stream funciona como una secuencia de pases que siempre termina en algo concr
 
 En definitiva, los Streams son el **fútbol moderno**: un código más limpio, más expresivo y preparado para ganar la Champions de la programación.
 
+<p align="center">⚽ • ⚽ • ⚽ • ⚽ • ⚽ • ⚽</p>
 
 # 4. Operaciones Intermedias: El Trabajo en el Centro del Campo
 
@@ -384,7 +386,7 @@ cantera.stream()
     .forEach(System.out::println); // Resultado: Jugador3, Jugador4
 ```
 
----
+<p align="center">⚽ • ⚽ • ⚽ • ⚽ • ⚽ • ⚽</p>
 
 # 5. Operaciones Terminales: El remate a Puerta
 
@@ -450,7 +452,7 @@ primero.ifPresent(System.out::println); // Si existe, lo muestra
 Esta es la parte donde evitamos que el equipo se hunda por una lesión inesperada. En Java, el `null` es como un jugador que se borra del partido en el último minuto. Si no tienes un plan, pierdes.
 
 
----
+<p align="center">⚽ • ⚽ • ⚽ • ⚽ • ⚽ • ⚽</p>
 
 # 6. La Clase Optional: El Seguro de Vida del Míster
 
@@ -530,7 +532,7 @@ delantero.ifPresentOrElse(
 
 ¡A las órdenes, míster! Aquí tienes la sesión de entrenamiento final. Dos ejercicios "pata negra" explicados paso a paso y una lista de 15 retos para que pases de ser un canterano a ser el capitán del equipo.
 
----
+<p align="center">⚽ • ⚽ • ⚽ • ⚽ • ⚽ • ⚽</p>
 
 # 🏆 SESIÓN DE ENTRENAMIENTO: DEL BARRO AL GOL
 
@@ -577,7 +579,8 @@ public class ChampionsLeague {
 }
 ```
 
----
+<p align="center">⚽ • ⚽ • ⚽ • ⚽ • ⚽ • ⚽</p>
+
 
 ## Ejercicio Completo 2: "El Fichaje de Invierno con Optional"
 **Objetivo:** Buscar un fichaje en el mercado y, si no lo encontramos, tirar de la cantera para no quedarnos con la caja vacía.
@@ -610,7 +613,7 @@ public class MercadoFichajes {
 }
 ```
 
----
+<p align="center">⚽ • ⚽ • ⚽ • ⚽ • ⚽ • ⚽</p>
 
 # 🏃‍♂️ LOS 15 NIVELES DE LA CANTERA (De menos a más)
 
@@ -636,4 +639,10 @@ public class MercadoFichajes {
 15. **Presión Asfixiante:** Ejecuta un proceso de filtrado complejo sobre 1 millón de datos de jugadores usando `parallelStream` para demostrarle al profesor que sabes cómo ganar tiempo en el partido.
 
 ---
-
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGJycjRyeXByeHJyeHJyeHJyeHJyeHJyeHJyeHJyeHJyeHJyeHJyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7TKpXXqDDSVIBfH2/giphy.gif" width="150px" />
+  <br>
+  <b>¿Dudas tácticas? Abre un "Issue" en el tablón del vestuario.</b>
+  <br>
+  <i>"El fútbol, como el código, es un juego de errores. El que comete menos, gana."</i>
+</div>
