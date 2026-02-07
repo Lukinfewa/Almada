@@ -103,7 +103,7 @@ Pero a partir de **Java 8**, hemos fichado el talento. El lenguaje ha incorporad
 
 Esto nos permite escribir código más **expresivo y conciso**. Ya no hace falta dar un discurso para decir "pasa el balón"; ahora lo hacemos con un toque sutil. 
 
-Esto ya no es un manual, es el **Libro de Estrategia del Carlos Tartiere**. Vamos a darle esa "intensidad" que pide el Cholo para que el profesor sienta la pasión (y el conocimiento técnico) en cada línea.
+Esto ya no es un manual, es el **Libro de Estrategia del Carlos Tartiere**.
 
 <p align="center">⚽ • ⚽ • ⚽ • ⚽ • ⚽ • ⚽</p>
 
@@ -200,7 +200,7 @@ Gracias a ellas, trabajar con la **API de Streams** es como jugar al primer toqu
 
 ### 📋 Anatomía de la Jugada (Sintaxis)
 
-En la pizarra del Cholo, una lambda siempre tiene tres partes: **Los implicados** (parámetros), **la flecha** (`->`) y **la acción** (cuerpo). Según la jugada, la orden cambia:
+En la pizarra de Guille Almada, una lambda siempre tiene tres partes: **Los implicados** (parámetros), **la flecha** (`->`) y **la acción** (cuerpo). Según la jugada, la orden cambia:
 
 1.  **Sin implicados (Sin parámetros):**
     `() -> System.out.println("¡Pita el árbitro!");`
@@ -303,7 +303,7 @@ public class Vestuario {
 ```
 
 ### El Análisis del Analista
-¿Habéis visto? No hay clases `Perro` ni `Mensajero` genéricas. Hemos creado un **`Arenga`**, le hemos asignado la personalidad del Cholo mediante una Lambda y hemos invocado el método. El código es limpio, expresivo y, sobre todo, tiene **intensidad**. Esta es la base de todo lo que haremos luego con los **Streams**: definir comportamientos a medida para ganar cada balón dividido.
+¿Habéis visto? No hay clases `Perro` ni `Mensajero` genéricas. Hemos creado un **`Arenga`**, le hemos asignado la personalidad de Almada mediante una Lambda y hemos invocado el método. El código es limpio, expresivo y, sobre todo, tiene **intensidad**. Esta es la base de todo lo que haremos luego con los **Streams**: definir comportamientos a medida para ganar cada balón dividido.
 
 <p align="center">⚽ • ⚽ • ⚽ • ⚽ • ⚽ • ⚽</p>
 
