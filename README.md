@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://m.media-amazon.com/images/M/MV5BYjBhMjliMDYtZTRiOC00ZGM3LTgxMWMtYzlmYjRhM2VhZTFiXkEyXkFqcGc@._V1_.jpg" width="600px" alt="Cholo Java Logo">
+  <img src="https://statics-maker.llt-services.com/ovi/images/2026/01/16/xlarge-wp/00c6043b-3a92-4c35-8330-9f237a7382a0-599.webp" width="600px" alt="Almada Java Logo">
   
   # LIBRO DE TÁCTICA: JAVA STREAMS & OPTIONAL
-  ### "Ganar, ganar y volver a ganar: El Manual del Cholo Simeone para Java 8+"
+  ### "Ganar, ganar y volver a ganar: El Manual de  Guille Almada para Java 8+"
   
   [![Java Version](https://img.shields.io/badge/Java-8%2B-red?style=for-the-badge&logo=java)](https://www.oracle.com/java/)
   [![License](https://img.shields.io/badge/Licencia-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
-  [![Build](https://img.shields.io/badge/Estado-Finalizado-success?style=for-the-badge)](https://github.com/Lukinfewa/cholo)
+  [![Build](https://img.shields.io/badge/Estado-Finalizado-success?style=for-the-badge)](https://github.com/Lukinfewa/almada)
 </div>
 
 <div align="center">
@@ -103,7 +103,7 @@ Pero a partir de **Java 8**, hemos fichado el talento. El lenguaje ha incorporad
 
 Esto nos permite escribir código más **expresivo y conciso**. Ya no hace falta dar un discurso para decir "pasa el balón"; ahora lo hacemos con un toque sutil. 
 
-Esto ya no es un manual, es el **Libro de Estrategia del Metropolitano**. Vamos a darle esa "intensidad" que pide el Cholo para que el profesor sienta la pasión (y el conocimiento técnico) en cada línea.
+Esto ya no es un manual, es el **Libro de Estrategia del Carlos Tartiere**. Vamos a darle esa "intensidad" que pide el Cholo para que el profesor sienta la pasión (y el conocimiento técnico) en cada línea.
 
 <p align="center">⚽ • ⚽ • ⚽ • ⚽ • ⚽ • ⚽</p>
 
@@ -136,7 +136,8 @@ En Java, este "fútbol total" llegó con los fichajes estrella de **Java 8**: la
 
 ---
 
-## El Equilibrio del Míster
+## El Equilibrio de Guille
+
 En este equipo, ambos sistemas conviven. La **programación imperativa** sigue siendo nuestra defensa central para la lógica general de la aplicación. Pero cuando el balón llega al centro del campo y hay que manejar colecciones de datos, la **programación funcional** es nuestra delantera estrella: aporta una claridad y una pegada que hacen que el código sea puro espectáculo. **Partido a partido, función a función.**
 
 
@@ -175,7 +176,7 @@ public class Entrenamiento {
 }
 ```
 
-### El Análisis del Míster
+### El Análisis de Guille
 ¿Qué ha pasado aquí? No hemos creado una clase `ClaseFaltaDirecta`. Hemos definido el comportamiento ahí mismo, en mitad del entrenamiento. Esto nos ahorra tener miles de archivos en la cantera para cosas que solo vamos a usar una vez.
 
 Sin embargo, **ojo con el cansancio**: si empiezas a meter clases anónimas muy largas, el código se vuelve "pesado", difícil de leer y te ensucia la pizarra táctica. Por eso, con la llegada de la nueva era (Java 8), estos "temporeros" han dejado paso a las **expresiones lambda**: una forma mucho más rápida, eléctrica y concisa de dar la misma orden sin tanto papeleo.
@@ -227,7 +228,7 @@ En la pizarra del Cholo, una lambda siempre tiene tres partes: **Los implicados*
 
 ## 2.4. Interfaces Funcionales: Los Especialistas de la Plantilla
 
-En el sistema del Cholo, la especialización es sagrada. No puedes poner a un delantero a despejar balones de cabeza en su propia área todo el partido. Cada jugador tiene una **misión única**. 
+En el sistema de Almada, la especialización es sagrada. No puedes poner a un delantero a despejar balones de cabeza en su propia área todo el partido. Cada jugador tiene una **misión única**. 
 
 Una **interfaz funcional** es exactamente eso: un contrato que define **una sola tarea específica** (un único método abstracto). Es el "puesto" en el campo. Gracias a que solo tienen una tarea, podemos asignarles una **Lambda** directamente. La Lambda es la "orden" y la Interfaz Funcional es el "puesto" donde se ejecuta.
 
@@ -293,10 +294,10 @@ Aquí no perdemos el tiempo creando clases aburridas. Usamos una **Lambda** para
 public class Vestuario {
     public static void main(String[] args) {
         // Definimos la arenga con una Lambda: rápida y directa
-        Arenga cholo = mensaje -> System.out.println("EL CHOLO GRITA: " + mensaje + " ¡CON EL CUCHILLO ENTRE LOS DIENTES!");
+        Arenga almada = mensaje -> System.out.println("ALMADA GRITA: " + mensaje + " ¡CON EL CUCHILLO ENTRE LOS DIENTES!");
 
         // El capitán sale al campo y ejecuta su función
-        cholo.darGrito("¡PARTIDO A PARTIDO!");
+        almada.darGrito("¡PARTIDO A PARTIDO!");
     }
 }
 ```
@@ -338,12 +339,12 @@ Escuchadme bien: las **operaciones intermedias** son los pases y la táctica. Po
 ### 4.1. `.filter()` - El Filtro del Antidoping
 Solo pasan los que cumplen la condición. Los demás, al banquillo.
 ```java
-List<String> plantilla = Arrays.asList("Griezmann", "Koke", "Oblak", "Correa");
+List<String> plantilla = Arrays.asList("Cazorla", "Costas", "Agudín", "Viñas");
 
 // Solo pasan los que tienen más de 5 letras en su nombre
 plantilla.stream()
-    .filter(jugador -> jugador.length() > 5) 
-    .forEach(System.out::println); // Resultado: Griezmann, Correa
+    .filter(jugador -> jugador.length() > 6) 
+    .forEach(System.out::println); // Resultado: Cazorla
 ```
 
 ### 4.2. `.map()` - El Cambio de Posición
@@ -352,7 +353,7 @@ Transformamos a los jugadores. Entra un dato, sale otro distinto.
 // Convertimos los nombres a mayúsculas para las camisetas
 plantilla.stream()
     .map(String::toUpperCase)
-    .forEach(System.out::println); // Resultado: GRIEZMANN, KOKE...
+    .forEach(System.out::println); // Resultado: CAZORLA, COSTAS, AGUDÍN, VIÑAS
 ```
 
 ### 4.3. `.sorted()` - La Tabla de Clasificación
@@ -361,17 +362,17 @@ Ordenamos la fila antes de salir al campo.
 // Ordenamos alfabéticamente
 plantilla.stream()
     .sorted()
-    .forEach(System.out::println); // Resultado: Correa, Griezmann, Koke, Oblak
+    .forEach(System.out::println); // Resultado: Agudín, Cazorla, Costas, Viñas
 ```
 
 ### 4.4. `.distinct()` - Sin Cromos Repetidos
 Aquí no queremos duplicados. Solo valores únicos.
 ```java
-List<String> cromos = Arrays.asList("Koke", "Koke", "Oblak");
+List<String> cromos = Arrays.asList("Cazorla", "Cazorla", "Agudín");
 
 cromos.stream()
     .distinct()
-    .forEach(System.out::println); // Resultado: Koke, Oblak
+    .forEach(System.out::println); // Resultado: Cazorla, Agudín
 ```
 
 ### 4.5. `.limit()` y `.skip()` - El 11 Inicial y los Descartes
@@ -403,8 +404,8 @@ plantilla.stream()
 Recoge a los supervivientes y los mete en una lista o conjunto nuevo.
 ```java
 List<String> convocados = plantilla.stream()
-    .filter(jugador -> jugador.startsWith("G"))
-    .collect(Collectors.toList()); // Metemos a Griezmann en la lista
+    .filter(jugador -> jugador.startsWith("C"))
+    .collect(Collectors.toList()); // Metemos a Cazorla
 ```
 
 ### 5.3. `.reduce()` - El Marcador Final
@@ -504,12 +505,12 @@ Antes de dar la orden, miramos si el jugador ha venido:
 ### B. El Plan B (`orElse` y `orElseGet`)
 Si el titular no está, sacamos al reserva. No podemos quedarnos con diez.
 ```java
-Optional<String> delantero = mercado.buscar("Mbappé");
+Optional<String> delantero = mercado.buscar("Viñas");
 
-// Si no está Mbappé, juega el "Canterano" (Valor por defecto)
+// Si no está Viñas, juega el "Canterano" (Valor por defecto)
 String titular = delantero.orElse("Canterano");
 
-// orElseGet (Lazy): Solo se busca al canterano si Mbappé falla
+// orElseGet (Lazy): Solo se busca al canterano si Viñas falla
 String titularPro = delantero.orElseGet(() -> "Canterano de la cantera");
 ```
 
@@ -559,11 +560,11 @@ class Jugador {
 public class ChampionsLeague {
     public static void main(String[] args) {
         List<Jugador> plantilla = Arrays.asList(
-            new Jugador("Koke", 85, 10),
-            new Jugador("Griezmann", 90, 9),
-            new Jugador("De Paul", 60, 8), // Está cansado, al banquillo
-            new Jugador("Oblak", 95, 10),
-            new Jugador("Correa", 75, 7)
+            new Jugador("Cazorla", 85, 10),
+            new Jugador("Hassan", 90, 9),
+            new Jugador("Viñas", 60, 8), // Está cansado, al banquillo
+            new Jugador("Escandell", 95, 10),
+            new Jugador("Vidal", 75, 7)
         );
 
         // LA JUGADA MAESTRA
