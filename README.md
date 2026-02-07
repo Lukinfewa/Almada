@@ -638,3 +638,178 @@ public class MercadoFichajes {
 13. **Fichaje Relámpago:** Busca un jugador en un `Optional`. Si existe y su sueldo es mayor a 1M, aplícale un descuento del 10% (map) y si no, lanza una excepción `RuntimeException` (orElseThrow).
 14. **Scouting Internacional:** Tienes una lista de Clubes y cada Club tiene una lista de Jugadores. Usa `flatMap` para obtener una única lista con TODOS los jugadores de todos los clubes.
 15. **Presión Asfixiante:** Ejecuta un proceso de filtrado complejo sobre 1 millón de datos de jugadores usando `parallelStream` para demostrarle al profesor que sabes cómo ganar tiempo en el partido.
+
+
+# BIBLIOGRAFÍA 
+## Java Streams & Optional - Manual del Real Oviedo
+## DOCUMENTACIÓN OFICIAL DE ORACLE
+
+### Java SE 8 (Introducción de Streams y Optional)
+
+Oracle Corporation. (2014). *IntStream (Java Platform SE 8)*. Oracle Help Center. https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html
+
+Oracle Corporation. (2014). *Optional (Java Platform SE 8)*. Oracle Help Center. https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html
+
+Oracle Corporation. (2014). *Package java.util.stream (Java Platform SE 8)*. Oracle Help Center. https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html
+
+Oracle Corporation. (2014). *Stream (Java Platform SE 8)*. Oracle Help Center. https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
+
+Oracle Corporation. (2014). *Uses of class java.util.Optional (Java Platform SE 8)*. Oracle Help Center. https://docs.oracle.com/javase/8/docs/api/java/util/class-use/Optional.html
+
+### Java SE 10
+
+Oracle Corporation. (2018). *Optional (Java SE 10 & JDK 10)*. Oracle Help Center. https://docs.oracle.com/javase/10/docs/api/java/util/Optional.html
+
+Oracle Corporation. (2018). *Stream (Java SE 10 & JDK 10)*. Oracle Help Center. https://docs.oracle.com/javase/10/docs/api/java/util/stream/Stream.html
+
+### Java SE 11 (LTS - Long Term Support)
+
+Oracle Corporation. (2018). *IntStream (Java SE 11 & JDK 11)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/stream/IntStream.html
+
+Oracle Corporation. (2018). *Optional (Java SE 11 & JDK 11)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Optional.html
+
+Oracle Corporation. (2018). *Stream (Java SE 11 & JDK 11)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/stream/Stream.html
+
+### Java SE 12
+
+Oracle Corporation. (2019). *Stream (Java SE 12 & JDK 12)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/util/stream/Stream.html
+
+### Java SE 17 (LTS - Long Term Support)
+
+Oracle Corporation. (2021). *Optional (Java SE 17 & JDK 17)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Optional.html
+
+Oracle Corporation. (2021). *Stream (Java SE 17 & JDK 17)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Stream.html
+
+### Java SE 20
+
+Oracle Corporation. (2023). *Optional (Java SE 20 & JDK 20)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/20/docs/api/java.base/java/util/Optional.html
+
+### Java SE 21 (LTS - Long Term Support - Más Reciente)
+
+Oracle Corporation. (2023). *Optional (Java SE 21 & JDK 21)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html
+
+Oracle Corporation. (2023). *Stream (Java SE 21 & JDK 21)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html
+
+Oracle Corporation. (2023). *Uses of class java.util.Optional (Java SE 21 & JDK 21)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/class-use/Optional.html
+
+### Java SE 24 (En Desarrollo)
+
+Oracle Corporation. (2025). *Uses of class java.util.Optional (Java SE 24 & JDK 24)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/util/class-use/Optional.html
+
+### Java SE 25 (En Desarrollo)
+
+Oracle Corporation. (2026). *Uses of class java.util.Optional (Java SE 25 & JDK 25)*. Oracle Help Center. https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/class-use/Optional.html
+
+---
+
+## PLATAFORMA OFICIAL DE DESARROLLO JAVA
+
+Oracle Corporation. (n.d.). *The Stream API*. Dev.java. Recuperado el 7 de febrero de 2026, de https://dev.java/learn/api/streams/
+
+---
+
+## LIBROS ACADÉMICOS Y TÉCNICOS
+
+### Libros Principales
+
+Urma, R.-G., Fusco, M., & Mycroft, A. (2015). *Java 8 in action: Lambdas, streams, and functional-style programming*. Manning Publications.
+
+Urma, R.-G., Fusco, M., & Mycroft, A. (2018). *Modern Java in action: Lambdas, streams, functional and reactive programming* (2.ª ed.). Manning Publications.
+
+---
+
+## ARTÍCULOS ACADÉMICOS Y TÉCNICOS
+
+### Artículos en Revistas Especializadas
+
+Urma, R.-G. (2014, marzo-abril). Processing data with Java SE 8 streams, part 1. *Java Magazine*. https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html
+
+### Artículos en Plataformas Técnicas
+
+Talniya, M. (2018, 31 de julio). Java 8: Frequently used features. *Medium*. https://mohittalniya.medium.com/java-8-frequently-used-features-457471dcbfd3
+
+---
+
+## TUTORIALES Y GUÍAS EN LÍNEA
+
+### Baeldung (Sitio Especializado en Java)
+
+Baeldung. (2023, 5 de octubre). *The Java stream API tutorial*. https://www.baeldung.com/java-8-streams
+
+Baeldung. (2023, 4 de noviembre). *Introduction to Java 8 streams*. https://www.baeldung.com/java-8-streams-introduction
+
+Baeldung. (2024, 8 de enero). *Primitive type streams in Java*. https://www.baeldung.com/java-8-primitive-streams
+
+Baeldung. (2025, 17 de marzo). *Java streams series*. https://www.baeldung.com/java-streams
+
+### GeeksforGeeks (Plataforma Educativa)
+
+GeeksforGeeks. (2025, 12 de septiembre). *Java 8 stream tutorial*. https://www.geeksforgeeks.org/java/java-8-stream-tutorial/
+
+### Stackify (Plataforma de Desarrollo)
+
+Stackify. (2024, 4 de septiembre). *A guide to Java streams in Java 8*. https://stackify.com/streams-guide-java-8/
+
+---
+
+## REPOSITORIOS DE CÓDIGO Y RECURSOS EDUCATIVOS
+
+### GitHub
+
+Baeldung. (n.d.). *Learn-java-streams: The "Learn Java Streams" course* [Repositorio de código]. GitHub. Recuperado el 7 de febrero de 2026, de https://github.com/Baeldung/learn-java-streams
+
+Chris-QingYuan. (n.d.). *Books/Java/Java 8 in Action* [Repositorio de libros]. GitHub. Recuperado el 7 de febrero de 2026, de https://github.com/Chris-QingYuan/books/blob/master/Java/Java%208%20in%20Action%20Lambdas,%20Streams,%20and%20functional-style%20programming%20-%20Raoul-Gabriel%20Urma/
+
+---
+
+## PLATAFORMAS DE DISTRIBUCIÓN DE LIBROS
+
+### Editoriales y Librerías en Línea
+
+Manning Publications. (n.d.). *Java 8 in action*. https://www.manning.com/books/java-8-in-action
+
+O'Reilly Media. (2014). *Java 8 in action* [Libro]. https://www.oreilly.com/library/view/java-8-in/9781617291999/
+
+Amazon. (n.d.). *Java 8 in action: Lambdas, streams, and functional-style programming*. https://www.amazon.com/Java-Action-Lambdas-functional-style-programming/dp/1617291994
+
+Amazon. (n.d.). *Modern Java in action: Lambdas, streams, functional and reactive programming*. https://www.amazon.com/Modern-Java-Action-functional-programming/dp/1617293563
+
+Barnes & Noble. (n.d.). *Modern Java in action: Lambdas, streams, functional and reactive programming* (2.ª ed.). https://www.barnesandnoble.com/w/modern-java-in-action-raoul-gabriel-urma/1136530616
+
+AbeBooks. (n.d.). *Java 8 in action: Lambdas, streams, and functional-style programming*. https://www.abebooks.com/9781617291999/Java-Action-Lambdas-Streams-functional-style-1617291994/plp
+
+Google Books. (n.d.). *Java 8 in action: Lambdas, streams, and functional-style programming*. https://books.google.com/books/about/Java_8_in_Action.html?id=vUsPBQAAQBAJ
+
+### Audiolibros
+
+Apple Books. (2019). *Java 8 in action: Lambdas, streams, and functional-style programming* [Audiolibro sin abreviar]. https://books.apple.com/us/audiobook/java-8-in-action-lambdas-streams-and-functional-style/id1448383264
+
+### Archivos Digitales
+
+Internet Archive. (2015). *Java 8 in action: Lambdas, streams, and functional-style programming*. https://archive.org/details/java8inactionlam0000urma
+
+---
+
+## NOTAS METODOLÓGICAS
+
+### Criterios de Selección de Fuentes
+
+Las fuentes incluidas en esta bibliografía han sido seleccionadas bajo los siguientes criterios académicos:
+
+1. **Autoridad**: Documentación oficial de Oracle Corporation (propietaria de Java)
+2. **Actualidad**: Recursos actualizados regularmente (2014-2026)
+3. **Relevancia**: Contenido específico sobre Streams API y Optional
+4. **Accesibilidad**: URLs verificadas y accesibles al 7 de febrero de 2026
+5. **Reconocimiento académico**: Autores con credenciales verificables (PhD, trabajos en empresas tecnológicas líderes)
+
+### Versiones LTS (Long Term Support) de Java
+
+Las versiones LTS reciben soporte extendido y son las más utilizadas en entornos de producción:
+- **Java SE 8** (2014): Introducción de Streams y Optional
+- **Java SE 11** (2018): Primera LTS post-Java 8
+- **Java SE 17** (2021): LTS con mejoras significativas
+- **Java SE 21** (2023): LTS más reciente al momento de esta compilación
+
+Real Oviedo Programming Team, "Bibliografía en formato APA 7: Java Streams & Optional," 2026. [Online]. Available: https://mediumspringgreen-eagle-580670.hostingersite.com/
+
+
