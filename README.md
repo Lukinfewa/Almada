@@ -386,6 +386,35 @@ cantera.stream()
     .limit(2)
     .forEach(System.out::println); // Resultado: Jugador3, Jugador4
 ```
+### 4.6. `.flatMap()` - El Repechaje de Cedidos
+Imagina que tienes varias listas: los cedidos en el Ibiza, los del filial y los del primer equipo. Si usas `map()`, te sale una lista de listas (un desastre administrativo). Con `flatMap()`, unificas a todos en una sola convocatoria. Aplanas la jerarquía.
+
+```java
+List<List<String>> grupos = Arrays.asList(
+    Arrays.asList("Cazorla", "Costas"),      // Veteranos
+    Arrays.asList("Hassan", "Vidal"),        // Offensive
+    Arrays.asList("Brugman", "Dubravka")     // Refuerzos
+);
+
+// Sin flatMap: Lista dentro de Lista. Un lío.
+// Con flatMap: Una sola familia, el Real Oviedo unido.
+grupos.stream()
+    .flatMap(grupo -> grupo.stream()) // Desempaquetamos cada sublist en el flujo general
+    .forEach(System.out::println); 
+// Resultado: Cazorla, Costas, Hassan, Vidal, Brugman, Dubravka...
+```
+
+### 4.7. .peek() - El Ojo del VAR
+Esta operación es para el analista táctico. Sirve para espiar qué pasa en el flujo sin parar el partido. Es perfecta para depurar y ver por qué se filtra un jugador que no debía. No modifica el balón, solo lo observa.
+```java
+List<String> rivales = Arrays.asList("Sporting", "Gijón", "Sporting");
+
+rivales.stream()
+    .filter(rival -> rival.length() > 6)
+    .peek(rival -> System.out.println("VAR revisando a: " + rival)) // Espiamos
+    .map(String::toUpperCase)
+    .forEach(System.out::println);
+``` 
 
 <p align="center">⚽   ⚽   ⚽   ⚽   ⚽   ⚽</p>
 
@@ -440,8 +469,44 @@ Convertimos el flujo en un Array de toda la vida.
 String[] arrayJugadores = plantilla.stream()
     .toArray(String[]::new);
 ```
+### 5.7. `.collect(Collectors.groupingBy())` - Los Vestuarios
+El partido ha terminado y toca clasificar. No queremos una lista interminable, queremos un Mapa donde la clave sea la posición y el valor la lista de jugadores. Esto organiza el vestuario: Defensas a la izquierda, Delanteros a la derecha.
 
-### 5.7. `.findFirst()` y `.findAny()` - El MVP
+```java
+class JugadorCarbayón {
+    String nombre;
+    String posicion; // DEF, MED, DEL
+    public JugadorCarbayón(String n, String p) { nombre = n; posicion = p; }
+    public String getPosicion() { return posicion; }
+    public String getNombre() { return nombre; }
+}
+
+List<JugadorCarbayón> plantilla = Arrays.asList(
+    new JugadorCarbayón("Costas", "DEF"),
+    new JugadorCarbayón("Cazorla", "MED"),
+    new JugadorCarbayón("Hassan", "DEL"),
+    new JugadorCarbayón("Vidal", "DEL")
+);
+
+// Agrupamos por posición. ¡Cada uno a su taquilla!
+Map<String, List<JugadorCarbayón>> vestuarios = plantilla.stream()
+    .collect(Collectors.groupingBy(JugadorCarbayón::getPosicion));
+
+// Si pedimos vestuarios.get("DEL"), tenemos a Hassan y a Vidal.
+System.out.println("Delanteros: " + vestuarios.get("DEL"));
+```
+
+### 5.8. .collect(Collectors.joining()) - La Pantalla Gigante
+Tienes la lista de goleadores y quieres ponerla en el marcador del Carlos Tartiere separada por comas. joining concatena strings sin bucles feos.
+```java
+List<String> goleadores = Arrays.asList("Hassan", "Cazorla", "Costas");
+
+String marcador = goleadores.stream()
+    .collect(Collectors.joining(" ⚽ ", "Goles del Oviedo: ", " ¡Gloria!"));
+// Resultado: "Goles del Oviedo: Hassan ⚽ Cazorla ⚽ Costas ¡Gloria!"
+```
+
+### 5.9. `.findFirst()` y `.findAny()` - El MVP
 Buscamos a un jugador concreto. ¡Cuidado! Devuelven un **`Optional`**.
 ```java
 Optional<String> primero = plantilla.stream()
