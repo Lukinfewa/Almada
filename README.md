@@ -681,7 +681,7 @@ public class MercadoFichajes {
 
 ```
 
-```html
+
 ## Ejercicio Completo 3: "El once ideal por estadísticas (Grouping + FlatMap)"
 **Objetivo:** Tenemos varias listas de jugadores (titulares y suplentes). Unificamos a todos, filtramos a los que tienen más de 5 goles y los agrupamos por su posición táctica para ver qué línea es la más letal.
 
@@ -728,7 +728,7 @@ public class TacticaAlmada {
         // Conclusión del míster: Tenemos gol, pero falta pegada en defensa.
     }
 }
-
+```
 <p align="center">⚽   ⚽   ⚽   ⚽   ⚽   ⚽</p>
 
 # 🏃‍♂️ LOS 15 NIVELES DE LA CANTERA (De menos a más)
