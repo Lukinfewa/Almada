@@ -677,7 +677,57 @@ public class MercadoFichajes {
             );
     }
 }
+
+
 ```
+
+```html
+## Ejercicio Completo 3: "El once ideal por estadísticas (Grouping + FlatMap)"
+**Objetivo:** Tenemos varias listas de jugadores (titulares y suplentes). Unificamos a todos, filtramos a los que tienen más de 5 goles y los agrupamos por su posición táctica para ver qué línea es la más letal.
+
+```java
+import java.util.*;
+import java.util.stream.Collectors;
+
+class Crack {
+    String nombre;
+    String demarcacion; // MED, DEL
+    int goles;
+    
+    public Crack(String n, String d, int g) { nombre = n; demarcacion = d; goles = g; }
+    public String getDemarcacion() { return demarcacion; }
+    public int getGoles() { return goles; }
+    public String getNombre() { return nombre; }
+}
+
+public class TacticaAlmada {
+    public static void main(String[] args) {
+        List<Crack> titulares = Arrays.asList(
+            new Crack("Cazorla", "MED", 8),
+            new Crack("Hassan", "DEL", 12)
+        );
+        List<Crack> suplentes = Arrays.asList(
+            new Crack("Ilic", "MED", 2),
+            new Crack("Sibo", "DEL", 6)
+        );
+
+        // PASO 1: Juntamos a todos (Titulares + Suplentes) con flatMap
+        // PASO 2: Filtramos solo los que meten más de 5 goles
+        // PASO 3: Agrupamos por demarcación para ver dónde tenemos pasta
+        Map<String, List<String>> armasPorPosicion = 
+            Stream.of(titulares, suplentes) // Stream<List<Crack>>
+                .flatMap(List::stream)      // Stream<Crack> (Aplanamos)
+                .filter(j -> j.getGoles() > 5) // Quedamos con los killer
+                .collect(Collectors.groupingBy( // Agrupamos
+                    Crack::getDemarcacion,
+                    Collectors.mapping(Crack::getNombre, Collectors.toList())
+                ));
+
+        System.out.println("Nuestras armas ofensivas: " + armasPorPosicion);
+        // Salida esperada: {DEL=[Hassan, Sibo], MED=[Cazorla]}
+        // Conclusión del míster: Tenemos gol, pero falta pegada en defensa.
+    }
+}
 
 <p align="center">⚽   ⚽   ⚽   ⚽   ⚽   ⚽</p>
 
